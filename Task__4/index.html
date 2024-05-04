@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>
+        Travel reservation form
+    </h1>
+    <h2>
+        *denotes mandotory
+    </h2>
+    <p>
+        Full name*:
+    </p>
+    <input type="text" placeholder="FirstName LastName" >
+    <p>
+        Email address*:
+    </p>
+    <input type="email" placeholder="EMAIL_ADDRESS" >
+    <p>
+        Select tour Package*:
+    </p>
+    <input list="city" placeholder="Goa">
+    <datalist id="city" p >
+        <option value="Goa">
+        <option value="Tokyo">
+        <option value="Shanghai">
+        <option value="Chinatown">
+      </datalist>
+    <p>
+      Arrival date*:
+    </p>
+    <input type="date">
+    <p>
+        Number of persons*:
+    </p>
+    <input type="text">
+    <p>
+        What would you want to avail?*
+    </p>
+    <div class="check" >
+        Boarding <input type="checkbox" >
+    </div>
+    <div class="check" >
+        Fooding <input type="checkbox" >
+    </div>
+    <div class="check" >
+        Sight seeing <input type="checkbox" >
+    </div>
+    <p>
+        Discout Coupon code:
+    </p>
+    <input type="text">
+    <p>
+        Terms and conditions*:
+    </p>
+    <input type="radio" id="agree" name="fav_language" value="HTML">
+  <label for="agree">I agree</label>
+  <input type="radio" id="agree" name="fav_language" value="CSS">
+  <label for="agree">I disagree</label> <br>
+  <input type="submit">
+</body> 
+</html>

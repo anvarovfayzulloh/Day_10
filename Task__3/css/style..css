@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-color: #06bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    width: 100%;
+    max-width: 325px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 80px 0px;
+    padding: 70px 30px;
+}
+.welcome__title{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #06bcd4;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+.welcome__input{
+    border: none;
+    border-bottom: 1px solid #a7a7a7;
+    outline: none;
+    font-family: sans-serif;
+    padding: 0px 0px 10px 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 265px;
+}
+.welcome__input::placeholder{
+    color: #a7a7a7;
+    font-family: sans-serif;
+
+}
+.remember{
+    display: flex;
+    align-items: center;
+}
+.remem__text{
+    padding-left: 5px;
+    font-family: sans-serif;
+    color: #6f6f6f;
+    font-size: 14px ;
+
+}
+.welcome__btn{
+    background: linear-gradient(90deg, rgba(11,149,250,1) 0%, rgba(2,188,211,1) 100%);
+    max-width: 265px;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius:  50px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 15px 0px 20px 0px;
+    cursor: pointer;
+}
+.signup{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #6f6f6f;
+    text-align: center;
+}
+.signup__text{
+    color: #06bcd4;
+}

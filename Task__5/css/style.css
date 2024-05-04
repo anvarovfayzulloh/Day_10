@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 5px;
+}
+h1{
+    padding: 30px 0px;
+}
+.email{
+    padding: 0px 0px 20px 0px;
+}
+.password{
+    padding: 20px 0px 20px 0px;
+}
+.gen_1{
+    display: flex;
+    gap: 10px;
+    padding: 0px 0px 20px 0px;
+}
+.gen{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

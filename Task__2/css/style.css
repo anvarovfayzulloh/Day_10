@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(114,182,229,1) 0%, rgba(141,123,199,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.checkbox-wrapper-31:hover .check {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-31 {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.checkbox-wrapper-31 .background {
+  fill: #ccc;
+  transition: ease all 0.6s;
+  -webkit-transition: ease all 0.6s;
+}
+.checkbox-wrapper-31 .stroke {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  stroke-dashoffset: 100;
+  stroke-dasharray: 100;
+  transition: ease all 0.6s;
+  -webkit-transition: ease all 0.6s;
+}
+.checkbox-wrapper-31 .check {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  stroke-dashoffset: 22;
+  stroke-dasharray: 22;
+  transition: ease all 0.6s;
+  -webkit-transition: ease all 0.6s;
+}
+.checkbox-wrapper-31 input[type=checkbox] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  opacity: 0;
+  -webkit-appearance: none;
+}
+.checkbox-wrapper-31 input[type=checkbox]:hover {
+  cursor: pointer;
+}
+.checkbox-wrapper-31 input[type=checkbox]:checked + svg .background {
+  fill: #6cbe45;
+}
+.checkbox-wrapper-31 input[type=checkbox]:checked + svg .stroke {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-31 input[type=checkbox]:checked + svg .check {
+  stroke-dashoffset: 0;
+}
+.reg{
+    background-color: #FFFFFF;
+    max-width: 660px;
+    width: 100%;
+    border-radius: 5px;
+}
+.reg__wrapper{
+    padding: 20px 30px 50px 30px ;
+}
+.title__reg{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.underline__reg{
+    max-width: 28px;
+    width: 100%;
+    min-height: 3px;
+    background: linear-gradient(90deg, rgba(114,182,229,1) 0%, rgba(141,123,199,1) 100%);
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 0px 30px 0px;
+}
+.reg__input{
+    max-width: 280px;
+    min-width: 200px;
+    width: 100%;
+}
+.reg__input-inputs{
+    width: 100%;
+}
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.reg__input-inputs{
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 0px 15px 15px ;
+}
+.reg__input > p{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+}
+.title__reg-2{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    display: block;
+}
+.gender__select{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:  0px 100px;
+    padding-bottom: 30px;
+}
+.selector__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 0px;
+}
+.gender__text{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    padding-left: 10px;
+}
+.gender__text_1{
+    font-family: "Poppins", sans-serif;
+    padding-left: 10px;
+}
+.reg__btn{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, rgba(114,182,229,1) 0%, rgb(142, 120, 214) 100%);
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
